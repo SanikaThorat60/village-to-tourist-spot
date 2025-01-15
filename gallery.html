@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body{
+            background-color: #A6CDC6;
+            margin: 0%;
+            padding: 0%;
+        }
+        header{
+            background-color:  #2d3748;
+            padding: 0%;
+            margin: 0%;
+        }
+        h2 , p{
+            padding: 2px;
+            margin: 2px;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            color: antiquewhite;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+          }
+        .column {
+            flex: 25%;
+            max-width: 55%;
+            padding: 0 4px;
+          }
+          
+          .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+          }
+          
+
+          @media screen and (max-width: 900px) {
+            .column {
+              flex: 70%;
+              max-width: 80%;
+            }
+          }
+          @media screen and (max-width: 600px) {
+            .column {
+              flex: 100%;
+              max-width: 100%;
+            }
+          }
+          footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2><b>Gallery</b></h2>
+        <p>Explore our collection of beautiful images below.</p>
+    </header>  
+    <div class="row">
+        <div class="column">
+          <img src="dam.jpg">
+          <img src="cusin.1.jpg">
+          <img src="cusin2.jpg">
+          <img src="work3.jpg">
+          <img src="img1.jpg">
+          <img src="img2.jpg">
+          <img src="past.jpg">
+          <img src="sihagad.jpeg">
+          <img src="sihagadfort.jpeg">
+        </div>
+        <div class="column">
+          <img src="kalayantemple.jpg">
+          <img src="naturalkalayan.jpg">
+          <img src="nature2.jpg">
+          <img src="work.10jpg.jpg">
+          <img src="work.8jpg.jpg">
+          <img src="work9.jpg">
+          <img src="work11.jpg">
+    
+        </div>
+        <div class="column">
+          <img src="sihagadfort1.jpeg">
+          <img src="sihagadfort2.jpeg">
+          <img src="sinhgad temple.jpg">
+          <img src="ricefarm.jpg">
+          <img src="trekking.jpg">
+          <img src="dam5.jpg">
+        </div>
+        <div class="column">
+          <img src="work1.jpg">
+          <img src="work2.jpg">
+          <img src="nature1.jpg">
+          <img src="road.jpg">
+          <img src="dam2.jpg">
+          <img src="nature3.jpg">
+          <img src="IMG_1736.JPG">
+            <img src="nature3.jpg">
+        </div>
+        <div class="column">
+            <img src="work4.jpg">
+            <img src="work5.jpg">
+            <img src="work6.jpg">
+            <img src="road.jpg">
+            <img src="dam2.jpg">
+            <img src="dam3.jpg">
+      </div>
+      <footer>
+        <p>&copy; 2025 Kalyan Village Project</p>
+    </footer>
+</body>
+</html>
